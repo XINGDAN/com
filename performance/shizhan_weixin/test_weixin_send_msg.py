@@ -2,13 +2,12 @@ import requests
 import pytest
 
 def test_weixin_send_msg_first():
-    #res = requests.get("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww7c99ed700f77f99c&corpsecret=Qy2llVVuDMsR6gWZVRCx6iJaEk4TLOmYwJ0u0vD8xn8")
+    #res = requests.get("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=id&corpsecret=Q")
     #print(res.json())
-    access_token = 'QFTtaidOVHzWZWxX1d0jOxsz7OjHt9fBhmsIsD_aoVXuohz5xhs0n6uhT1SzvqSdUp9fqGALZdzykRkbtnREZpULFCwAI08HvGt3x_93NjBYK3AId6pma80jpCvzSW5QTUUjZD2KlrB3STivT9AJnrC9VGDBMJ1Ntqv33ThZrKOdeD6L6vkAZM1JDwTXHEbA7Rw0EuDWTzpGLe8L_c4qPA'
-    url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=' + access_token
+    access_token = 'QFT...-bin/message/send?access_token=' + access_token
 
     send_json = {
-   "touser" : "WangDan",
+   "touser" : "xingming",
    "toparty" : "PartyID1|PartyID2",
    "totag" : "TagID1 | TagID2",
    "msgtype" : "text",
@@ -18,7 +17,7 @@ def test_weixin_send_msg_first():
    },
     }
     assert res.json().get("errmsg") == 'ok'
-    assert res.json().get("invaliduser") == 'WangDan'
+    assert res.json().get("invaliduser") == 'xingming'
     res = requests.post(url,json=send_json)
 
     print(res.json())
