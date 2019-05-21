@@ -1,9 +1,11 @@
 import requests
 import pytest
 
+
 def test_weixin_send_msg_first():
     #res = requests.get("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=id&corpsecret=Q")
     #print(res.json())
+
     access_token = 'QFT...-bin/message/send?access_token=' + access_token
 
     send_json = {
