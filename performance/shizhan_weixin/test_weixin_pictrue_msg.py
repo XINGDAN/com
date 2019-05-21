@@ -19,7 +19,7 @@ print(res_url_media_id.json())
 url_send_image = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=' + token
 
 test_json = {
-            "touser" : "wangdan",
+            "touser" : "tester",
             "toparty" : "PartyID1|PartyID2",
             "totag" : "TagID1 | TagID2",
             "msgtype" : "image",
