@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1ebf2ea-0fa8-4b99-b28c-156788baf42b" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/test_create_dep.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_create_dep.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/functional/__init__.py" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" afterDir="false" />
@@ -20,6 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
@@ -124,6 +129,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,11 +165,19 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="317" />
     <option name="y" value="105" />
     <option name="width" value="960" />
     <option name="height" value="660" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="361" />
+    <option name="y" value="304" />
+    <option name="width" value="960" />
+    <option name="height" value="438" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,6 +208,7 @@
               <item name="com" type="b2602c69:ProjectViewProjectNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="performance" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="addressbook_msgshizhan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -199,6 +216,8 @@
               <item name="com" type="b2602c69:ProjectViewProjectNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="performance" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
               <item name="shizhan_weixin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -330,10 +349,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="317" y="105" width="960" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26898047" />
+=======
+    <frame x="361" y="304" width="960" height="438" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46420825" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,8 +369,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" weight="0.13958333" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.5225806" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4978308" visible="true" weight="0.8932384" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021692" side_tool="true" weight="0.8932384" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -353,6 +383,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg.py" />
     <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_send_msg.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,6 +396,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
+=======
+    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_get_accesstoken.py">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
@@ -401,11 +435,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/configparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2187" />
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg.py" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -433,6 +471,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -451,6 +490,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_send_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
