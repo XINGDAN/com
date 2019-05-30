@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1ebf2ea-0fa8-4b99-b28c-156788baf42b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/member/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/gettoken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/com.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/test_create_dep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_create_dep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_send_msg.py">
+        <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="81">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -37,22 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="152">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="e#38#52#0" expanded="true" />
               </folding>
@@ -61,10 +46,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/test_create_dep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#38#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="176">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -72,11 +78,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="207">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#37#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_create_dep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -90,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_get_accesstoken.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -122,17 +146,22 @@
         <option value="$PROJECT_DIR$/performance/addressbook/src/initialization/gettoken.py" />
         <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/gettoken.py" />
         <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg.py" />
+        <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/syscongig.py" />
+        <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py" />
+        <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/test_create_dep.py" />
+        <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py" />
         <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg" />
         <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py" />
         <option value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py" />
+        <option value="$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_create_dep.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="81" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="317" />
+    <option name="y" value="105" />
     <option name="width" value="960" />
-    <option name="height" value="638" />
+    <option name="height" value="660" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,36 +193,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="performance" type="462c0819:PsiDirectoryNode" />
               <item name="addressbook_msgshizhan" type="462c0819:PsiDirectoryNode" />
-              <item name="cfg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="performance" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook_msgshizhan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com" type="b2602c69:ProjectViewProjectNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="performance" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook_msgshizhan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="performance" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook_msgshizhan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="shizhan_weixin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +222,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_weixin_pictrue_msg">
+  <component name="RunManager" selected="Python.sysconfig">
+    <configuration name="sysconfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_get_accesstoken" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,6 +309,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sysconfig" />
         <item itemvalue="Python.test_weixin_pictrue_msg" />
         <item itemvalue="Python.test_get_accesstoken" />
         <item itemvalue="Python.test_weixin_send_msg" />
@@ -296,21 +330,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="81" width="960" height="638" extended-state="0" />
+    <frame x="317" y="105" width="960" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27006507" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26898047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14583333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47291666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56458336" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" weight="0.3327645" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920508" weight="0.13958333" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.5225806" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -319,6 +353,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg.py" />
     <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_send_msg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -329,10 +364,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_get_accesstoken.py">
+    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="81">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -343,33 +381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_pictrue_msg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/contact/dapartment/departmanagment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="207">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#37#69#0" expanded="true" />
           </folding>
@@ -378,11 +393,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/apis/baseapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="e#38#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/cfg/auto.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/testcases/contact/department/test_create_dep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#38#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/addressbook_msgshizhan/src/initialization/sysconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_weixin_create_dep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance/shizhan_weixin/test_get_accesstoken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
