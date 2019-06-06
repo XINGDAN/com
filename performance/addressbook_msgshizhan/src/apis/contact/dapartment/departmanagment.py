@@ -3,6 +3,7 @@
 from apis.baseapi import BaseAPI
 import logging
 import requests
+import time
 from initialization.sysconfig import sys_cfg
 
 class DeptManagment():
@@ -13,6 +14,7 @@ class DeptManagment():
         self.dep_secrets = sys_cfg.get('contact_para','secrets')
 
     def create_dept(self):
+        name = time.strftime("%y%m%d")
         new_part={
             "name":"myrequeststest",
             "parentid":1,

@@ -4,7 +4,7 @@
 from apis.contact.dapartment.departmanagment import DeptManagment
 class TestCreateDep:
 
-    def create_new_dep(self):
+    def test_create_new_dep(self):
         dept_management = DeptManagment()
         dept_management.create_dept()
         create_res = dept_management.get_response()
